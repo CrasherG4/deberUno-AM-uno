@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { EjercicioCinco } from "./Typescript/EjercicioCinco"
+import { EjercicioCuatro } from "./Typescript/EjercicioCuatro"
+import { EjercicioDos } from "./Typescript/EjercicioDos"
+import { EjercicioTres } from "./Typescript/EjercicioTres"
+import { EjercicioUno } from "./Typescript/EjercicioUno"
 
-function App() {
+
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mt-2 ms-4 text-center">
+      <h1>EJERICIOS TYPESCRIPT - REACT</h1>
+      <hr />
+      {/* {<EjercicioUno/>} */}
+      {/* {<EjercicioDos/>} */}
+      {/* {<EjercicioTres/>} */}
+      {/* {<EjercicioCuatro/>} */}
+      {<EjercicioCinco/>}
     </div>
-  );
+  )
 }
-
-export default App;
